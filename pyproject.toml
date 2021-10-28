@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "juliacall_test"
+version = "0.1.0"
+description = ""
+authors = ["Federico Simonetta <federico.simonetta@unimi.it>"]
+
+[tool.poetry.dependencies]
+python = "3.9"
+juliacall = "0.4.2"
+julia = "0.5.7"
+joblib = "1.1.0"
+tqdm = "4.62.3"
+numba = "0.54.1"
+jill = "0.9.7"
+
+[tool.poetry.dev-dependencies]
+ipdb = "0.13.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
